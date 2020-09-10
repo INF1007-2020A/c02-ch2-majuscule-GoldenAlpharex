@@ -5,7 +5,7 @@ def majuscule(mot):
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        if ord('') <= ord(lettre) and ord(lettre) <= ord("z")
+        if ord("a") <= ord(lettre) and ord(lettre) <= ord("z")
         lettre = chr(ord(lettre) - distance_entre_min_et_maj)
         resultat += lettre
     return resultat
