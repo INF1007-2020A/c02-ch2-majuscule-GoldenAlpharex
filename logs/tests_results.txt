@@ -1,16 +1,6 @@
-test_upper_case_names (__main__.TestExercice) ... ERROR
-
-======================================================================
-ERROR: test_upper_case_names (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 17, in test_upper_case_names
-    output = list(map(exercice.majuscule, self.words))
-  File "/home/runner/work/c02-ch2-majuscule-GoldenAlpharex/c02-ch2-majuscule-GoldenAlpharex/exercice.py", line 7, in majuscule
-    lettre = ord(ord(lettre) + 32)
-TypeError: ord() expected string of length 1, but int found
+test_upper_case_names (__main__.TestExercice) ... ok
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.001s
+Ran 1 test in 0.000s
 
-FAILED (errors=1)
+OK
